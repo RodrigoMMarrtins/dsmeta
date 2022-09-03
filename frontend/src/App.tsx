@@ -1,5 +1,8 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import Header from './components/Header'
+import NotificationButton from './components/NotificationButton'
+import SalesCard from './components/SalesTable'
+import * as S from './styles'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -7,7 +10,10 @@ function App() {
   return (
     <div className="App">
       <div>
-      <h1>Olá mundo!</h1>
+        <Header/>
+        <S.MainContent>
+            <SalesCard/>
+        </S.MainContent>
       </div>
     </div>
   )
