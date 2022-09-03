@@ -60,29 +60,18 @@ export const TableItem = styled.div`
     color: #cfcfcf;
     border-top: 1px solid #5F6E82;
     padding: 5px 0;
+
     & > div {
         display: flex;
     }
+    
     :hover {
         background-color: #384459;
     }
 
-    :hover > div{
+    :hover > div {
         background-color: #384459;
     }
-
-
-`
-
-export const Input = styled.input`
-    width: 100%;
-    height: 46px;
-    background-color: #1b2531;
-    border: 1px solid #384459;
-    border-radius: 5px;
-    color: #9aaabe;
-    padding: 0 20px;
-    font-size: 18px;
 `
 
 export const InputWrapper = styled.div`
